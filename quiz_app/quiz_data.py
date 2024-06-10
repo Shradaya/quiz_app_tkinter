@@ -529,15 +529,15 @@ def get_questions():
             "explanation": "In the context of training neural networks, batch size refers to the number of training examples processed in one iteration of the optimization algorithm. During each iteration (or training step), the model updates its weights based on the gradients computed from a subset of the training data, where the size of this subset is determined by the batch size. Larger batch sizes can lead to more stable updates but require more memory, while smaller batch sizes may introduce more noise but require less memory."
         },
         {
-            "question": "Which of the following techniques is commonly used for anomaly detection in datasets?",
+            "question": "What is a common method used in data engineering for efficiently processing large volumes of data?",
             "options": [
-                "K-means clustering",
-                "Support Vector Machines (SVM)",
-                "Isolation Forest",
-                "All of the above"
+                "MapReduce",
+                "Linear Regression",
+                "Naive Bayes",
+                "Decision Tree"
             ],
-            "answer": "All of the above",
-            "explanation": "All of the above techniques—K-means clustering, Support Vector Machines (SVM), and Isolation Forest—are commonly used for anomaly detection in datasets. Anomaly detection involves identifying rare events or observations that significantly deviate from the norm within a dataset. K-means clustering can detect anomalies based on deviations from cluster centroids, SVM can identify outliers based on their separation from the rest of the data, and Isolation Forest can isolate anomalies by recursively partitioning the data into subsets."
+            "answer": "MapReduce",
+            "explanation": "MapReduce allows data engineers to parallelize data processing tasks across multiple nodes, making it suitable for handling large volumes of data efficiently"
         },
         {
             "question": "What is the primary purpose of dropout regularization in neural networks?",
