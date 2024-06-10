@@ -201,7 +201,7 @@ class QuizApp:
     def clear_question(self):
         self.current_question_index = None
         self.question_var.set("")  # Clear the question text
-        self.selected_answer.set("")  # Clear the selected answer
+        self.selected_answer.set(value = "1")  # Clear the selected answer
         for button in self.option_buttons:
             button.deselect()  # Deselect all radio buttons
 
