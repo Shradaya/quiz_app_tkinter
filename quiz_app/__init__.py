@@ -219,7 +219,8 @@ class QuizApp:
         scores_label = tk.Label(final_scores_frame, text="Final Scores", font=("Arial", 18))
         scores_label.grid(row=0, column=0, pady=10)
 
-        for i, (group, score) in enumerate(self.scores.items(), start=1):
+        sorted_scores = sorted(self.scores.items(), key=lambda item: item[1], reverse=True)
+        for i, (group, score) in enumerate(sorted_scores, start=1):
             score_label = tk.Label(final_scores_frame, text=f"{group}: {score}", font=("Arial", 14))
             score_label.grid(row=i, column=0, pady=5)
 

@@ -375,15 +375,15 @@ def get_questions():
             "explanation": "The term 'vanishing gradient' refers to the phenomenon where the gradients of the loss function become extremely small during backpropagation in deep neural networks. As a result, the weights of earlier layers in the network are updated very slowly or not at all, leading to slow learning or stagnation in learning progress. Vanishing gradients can hinder the training of deep neural networks, especially in architectures with many layers."
         },
         {
-            "question": "Which of the following is NOT a common activation function used in neural networks?",
+            "question": "Which database model stores data in tables with rows and columns, and enforces relationships between tables using foreign keys?",
             "options": [
-                "Sigmoid",
-                "ReLU (Rectified Linear Unit)",
-                "Softmax",
-                "Tanh (Hyperbolic Tangent)"
+                "Relational Database Management System (RDBMS)",
+                "NoSQL Database",
+                "Object-Oriented Database Management System (OODBMS)",
+                "Document Database"
             ],
-            "answer": "Softmax",
-            "explanation": "Softmax is commonly used as an activation function in the output layer of neural networks for multi-class classification problems. ReLU (Rectified Linear Unit), Tanh (Hyperbolic Tangent), and Sigmoid are commonly used activation functions in hidden layers of neural networks for introducing non-linearity and controlling the output range of neurons."
+            "answer": "Relational Database Management System (RDBMS)",
+            "explanation": "RDBMSs are based on the relational model proposed by Edgar F. Codd in the 1970s and are widely used for structured data storage and management."
         },
         {
             "question": "What is the primary goal of cross-validation in machine learning?",
@@ -430,15 +430,15 @@ def get_questions():
             "explanation": "The purpose of the Expectation-Maximization (EM) algorithm is to maximize the likelihood function in the presence of missing or incomplete data. EM is an iterative algorithm used to estimate the parameters of probabilistic models with latent variables. It alternates between the E-step, where the expected values of the latent variables are computed given the current parameter estimates, and the M-step, where the parameters are updated to maximize the likelihood function based on the expected values obtained in the E-step."
         },
         {
-            "question": "Which of the following is NOT a step in the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology?",
+            "question": "Which type of database model organizes data into a hierarchical structure with parent-child relationships?",
             "options": [
-                "Data Understanding",
-                "Data Transformation",
-                "Data Imputation",
-                "Data Evaluation"
+                "Relational Database Management System (RDBMS)",
+                "NoSQL Database",
+                "Object-Oriented Database Management System (OODBMS)",
+                "Hierarchical Database"
             ],
-            "answer": "Data Imputation",
-            "explanation": "Data Imputation is not a step in the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology. The CRISP-DM methodology consists of six main steps: Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment. Data Imputation, which involves filling in missing values in a dataset, is typically part of the Data Preparation step, not a separate step in the CRISP-DM methodology."
+            "answer": "Hierarchical Database",
+            "explanation": "Hierarchical databases organize data in a tree-like structure with parent-child relationships, where each record has one parent but can have multiple children. This model is particularly suited for representing data with a clear hierarchical structure, such as organizational charts or file systems."
         },
         {
             "question": "What is the purpose of the L1 regularization (Lasso) in machine learning?",
